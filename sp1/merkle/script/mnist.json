@@ -1,0 +1,12 @@
+{
+  "framework": "sp1",
+  "task": "mnist",
+  "execution_time": 0.051376315,
+  "setup_time": 2.211664702,
+  "prover_time": 43.419577359,
+  "verifier_time": 0.23621447,
+  "proof_size": 2657478,
+  "num_cycles": 182123,
+  "num_mem_access": 0,
+  "speed": 4194.490390686624
+}

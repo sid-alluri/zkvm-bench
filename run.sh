@@ -11,7 +11,7 @@ cargo prove build
 cd ../script/
 RUST_LOG=info cargo run --release -- --task merkle
 /usr/bin/time -v cargo run --release -- --task merkle --prove-only 
-cd ..
+cd ../../
 
 cd ecdsa
 cd program/
@@ -19,7 +19,7 @@ cargo prove build
 cd ../script/
 RUST_LOG=info cargo run --release -- --task ecdsa
 /usr/bin/time -v cargo run --release -- --task ecdsa --prove-only 
-cd ..
+cd ../../
 
 
 cd ml
@@ -31,7 +31,7 @@ RUST_LOG=info cargo run --release -- --task dlrm
 # For memory usage
 /usr/bin/time -v cargo run --release -- --task mnist --prove-only 
 /usr/bin/time -v cargo run --release -- --task dlrm --prove-only 
-cd ../../
+cd ../../../
 
 
 # risc0
@@ -48,4 +48,4 @@ RUST_LOG=info cargo run --release -- --task mnist
 /usr/bin/time -v cargo run --release -- --task mnist --prove-only 
 RUST_LOG=info cargo run --release -- --task dlrm
 /usr/bin/time -v cargo run --release -- --task dlrm --prove-only 
-cd ../...
+cd ../../
