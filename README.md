@@ -1,1 +1,2 @@
 # zkvm-bench
+`./run.sh`

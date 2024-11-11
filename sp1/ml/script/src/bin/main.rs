@@ -13,6 +13,7 @@ use std::time::Instant;
 pub const ELF: &[u8] = include_bytes!("../../../elf/riscv32im-succinct-zkvm-elf");
 #[derive(serde::Serialize)]
 struct BenchResults {
+    framework: String,
     task: String,
     execution_time: f64,
     setup_time: f64,
@@ -104,6 +105,7 @@ fn main() {
         .expect("verification failed");
 
     let results = BenchResults {
+        framework: "sp1".to_string(),
         task: args.task.clone(),
         execution_time,
         setup_time,

@@ -12,6 +12,7 @@ use serde_json::to_string_pretty;
 use std::{fs::File, io::Write, process::exit, time::Instant};
 #[derive(serde::Serialize)]
 struct BenchResults {
+    framework: String,
     task: String,
     execution_time: f64,
     prover_time: f64,
@@ -101,6 +102,7 @@ fn main() {
     );
 
     let results = BenchResults {
+        framework: "risc0".to_string(),
         task: args.task.clone(),
         execution_time,
         prover_time,
