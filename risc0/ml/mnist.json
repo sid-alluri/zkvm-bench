@@ -1,0 +1,9 @@
+{
+  "task": "mnist",
+  "execution_time": 0.747412654,
+  "prover_time": 1913.746325437,
+  "verifier_time": 0.349124995,
+  "proof_size": 4398592,
+  "num_cycles": 16252928,
+  "speed": 8492.728521001172
+}

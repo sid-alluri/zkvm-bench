@@ -1,0 +1,9 @@
+{
+  "task": "ecdsa",
+  "execution_time": 0.335642106,
+  "prover_time": 682.196222556,
+  "verifier_time": 0.131328452,
+  "proof_size": 1641192,
+  "num_cycles": 5767168,
+  "speed": 8453.825760559068
+}

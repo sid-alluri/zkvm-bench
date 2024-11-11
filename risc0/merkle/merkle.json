@@ -1,0 +1,9 @@
+{
+  "task": "merkle",
+  "execution_time": 0.170971365,
+  "prover_time": 107.542807102,
+  "verifier_time": 0.057485766,
+  "proof_size": 262492,
+  "num_cycles": 524288,
+  "speed": 4875.156359855235
+}
