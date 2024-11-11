@@ -1,0 +1,12 @@
+{
+  "framework": "sp1",
+  "task": "merkle",
+  "execution_time": 0.153534137,
+  "setup_time": 4.285194805,
+  "prover_time": 97.724093177,
+  "verifier_time": 0.355166529,
+  "proof_size": 2657478,
+  "num_cycles": 182123,
+  "num_mem_access": 0,
+  "speed": 1863.6448196058966
+}
